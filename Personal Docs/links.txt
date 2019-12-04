@@ -1,0 +1,17 @@
+DART :
+
+https://testoam.secure.fedex.com/oam/server/obrareq.cgi?encquery%3D76MSUrqiV82E1GGVTArPeVRL3Z2buBrHPsJudKaTi2ovjVoEoVGwMARuv2rqH8L3ppgE5keGpLnsZI%2BhvCgfX9LJL6VN1Tdz%2B1c414K011MrtFWZ1AcyUX5m69d2GVDRGnSTxg23ONCEAEF77w1fNZtKXT8LovrYra0cPUWRa88qWprgqUkMUGJTAC%2B8spSPQlI9Ci%2BXUrmNP6mB4mOCncDcJv06cG89vQjYV7QNqY88HOp02i27P%2FJWAJU0Qoc1axiWGqdcaY8d%2BiWSOQ7kCweH41vfNL7oi1RPT27FA4oToYZNZWUwGUAIT5zGIEo5%20agentid%3DApacheWebgate%20ver%3D1%20crmethod%3D2
+
+
+Equip :
+
+https://equip.syntel.in/EquipV4/FrmLogout.aspx
+
+
+Syntelligence :
+
+https://syntelligence.syntelinc.com/Pages/default.aspx
+
+
+
+

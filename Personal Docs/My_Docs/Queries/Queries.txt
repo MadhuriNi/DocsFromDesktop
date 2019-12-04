@@ -1,0 +1,78 @@
+Primary key :
+
+create table products
+(
+
+   product_id number not null,
+   name varchar(50),
+   product_cost number(5,2),
+   product_retail number(5,2),
+   product_type varchar(10),
+   store_id number not null, 
+
+  CONSTRAINT product_pk PRIMARY KEY (product_id)
+
+
+)
+
+
+
+insert all :
+
+
+insert all
+  into products values(1001,'Colgate Toothpaste',2.25,5.47,'hygine',2)
+  into products values(1002,'Colgate Toothpaste',2.25,5.47,'hygine',2)
+  into products values(1003,'Listerine Mouthwash',1.75,4.81,'hygine',3)
+select * from dual ;
+
+
+
+
+
+alter :
+
+alter table products
+  modify name varchar(50) not null ;
+
+
+alter table products
+  modify (PRODUCT_COST number(5,2) not null,
+          PRODUCT_RETAIL number(5,2) not null ) ;
+
+alter table products
+  rename column name to product_name ;
+
+alter table products
+  add name varchar(50) not null ;
+
+create :
+
+
+create table employees as
+select empno, ename, job, hiredate, sal, comm
+from emp ;
+
+
+DELETE foriegn key :
+
+ALTER TABLE emp
+DROP CONSTRAINT SYS_C0044995584 ;
+
+
+
+CREATE INDEX :
+
+CREATE INDEX emp_name_idx
+  ON employees (ename)
+
+
+CREATE INDEX emp_name_job_date_idx
+ ON employees (ename,job,hiredate) ;
+
+
+CREATE UNIQUE INDEX emp_job_idx
+ ON EMPLOYEES (JOB)
+
+
+DROP INDEX emp_name_idx ;
